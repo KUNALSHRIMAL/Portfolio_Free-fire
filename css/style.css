@@ -1,24 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body{
- overflow-x: hidden !important;
+html,
+body {
+    overflow-x: hidden !important;
 }
 
-.logo{
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 100px;
     border: 2xp solid white;
     border-radius: 50%;
 }
-.navbar{
+
+.navbar {
     display: flex;
     background-color: rgb(7, 12, 11);
     align-items: center;
@@ -26,47 +29,52 @@ html, body{
     position: sticky;
     top: 0;
     cursor: pointer;
-    
 }
-.navlist{
+
+.navlist {
     /* background-color: black; */
     width: 70%;
     display: flex;
     align-items: center;
 }
-.navlist li{
-   list-style: none;
-   padding: 25px 29px;
+
+.navlist li {
+    list-style: none;
+    padding: 25px 29px;
 }
-.navlist li a{
+
+.navlist li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    
 }
-.navlist li a:hover{
+
+.navlist li a:hover {
     text-decoration: none;
     color: gray;
-    
 }
-.rightnev{
+
+.rightnev {
     /* background-color: blueviolet; */
     width: 30%;
     text-align: right;
     padding: 0 23px;
 }
-#search{
+
+#search {
     padding: 5px;
     font-size: 15px;
     border: 2px solid gray;
     border-radius: 5px;
 }
-.background{
+
+.background {
     background: rgba(0, 0, 0, 0.7)url("/img/bg2.jpg");
     background-size: cover;
     background-blend-mode: darken;
 }
-.boxmain{
+
+.boxmain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,38 +84,45 @@ html, body{
     margin: auto;
     height: 100%;
 }
-.sec1{
+
+.sec1 {
     height: 100vh;
 }
-.fhalf{
+
+.fhalf {
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.shalf{
+
+.shalf {
     width: 30%;
 }
-.shalf img{
+
+.shalf img {
     height: 500px;
     border: 4px solid white;
     border-radius: 10%;
     display: block;
-    margin: auto;  
-    margin-left: 15px; 
+    margin: auto;
+    margin-left: 15px;
     box-shadow: 0px 3px 16px 3px;
 }
-.textbig{
+
+.textbig {
     font-size: 40px;
     text-align: center;
     text-transform: capitalize;
 }
-.textsmall{
-font-size: 18PX;
-text-transform: capitalize;
-padding: 5px 3px;
+
+.textsmall {
+    font-size: 18PX;
+    text-transform: capitalize;
+    padding: 5px 3px;
 }
-.btn{
+
+.btn {
     padding: 8px 20px;
     margin: 9px 3px;
     border: 2px solid white;
@@ -117,24 +132,24 @@ padding: 5px 3px;
     color: white;
     transition: 0.5s;
     font-weight: bold;
-
 }
 
-.btn:hover{
+.btn:hover {
     background-color: white;
     color: black;
-    
 }
-.btn-sm{
+
+.btn-sm {
     padding: 6px 10px;
     vertical-align: middle;
 }
-.btn-cu{
+
+.btn-cu {
     color: rgb(255, 255, 255);
     border: px solid wheat;
 }
-.sec2{
-    
+
+.sec2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -142,48 +157,55 @@ padding: 5px 3px;
     margin: auto;
     padding: 12px 0;
 }
-.sec3{
 
+.sec3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 90%;
     margin: auto;
     flex-direction: row-reverse;
-
 }
-.paras{
+
+.paras {
     padding: 12px 92px;
 }
-.sectag{
+
+.sectag {
     padding: 16px 0;
 }
-.subsectag{
- font-family: 'Times New Roman', Times, serif;
+
+.subsectag {
+    font-family: 'Times New Roman', Times, serif;
 }
-.thamb img{
+
+.thamb img {
     max-height: 350px;
     border: 2px solid black;
     border-radius: 10%;
     width: 100%;
     height: auto;
 }
-.contact{
+
+.contact {
     /* background-color: rgb(138, 151, 150); */
     height: 450 px;
     font-family: 'Courier New', Courier, monospace;
 }
-.contact h2{
+
+.contact h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 5px;
     font-size: 40px;
 }
-.form{
+
+.form {
     max-width: 62%;
     margin: 10px auto;
 }
-.form input{
+
+.form input {
     width: 100%;
     font-size: 18px;
     border: 2px solid gray;
@@ -191,84 +213,84 @@ padding: 5px 3px;
     margin: 10px 0;
     padding: 5px 3px;
 }
-.textfut{
+
+.textfut {
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 5px 0 ;
+    padding: 5px 0;
     color: white;
 }
-.burger{
+
+.burger {
     position: absolute;
     cursor: pointer;
     display: none;
     right: 5%;
     top: 15px;
 }
-.line{
+
+.line {
     width: 33px;
     background-color: white;
     height: 4px;
     margin: 5px 3px;
 }
-@media only screen and (max-width: 1000px)
-{
-    .navlist{
+
+@media only screen and (max-width: 1000px) {
+    .navlist {
         flex-direction: column;
     }
-    .navbar{
+    .navbar {
         flex-direction: column;
         transition: all 0.3s ease-out;
         height: 450px;
     }
-    .rightnev{
+    .rightnev {
         text-align: center;
     }
-    #search{
+    #search {
         width: 100%;
     }
-    .burger{
+    .burger {
         display: block;
     }
-    .hnav{
+    .hnav {
         height: 70px;
     }
-    .vclass{
+    .vclass {
         opacity: 0;
-
     }
-    .boxmain{
+    .boxmain {
         flex-direction: column-reverse;
         max-width: 100%;
-    
     }
-    .sec2,.sec3{
+    .sec2,
+    .sec3 {
         flex-direction: column-reverse;
     }
-    .shalf{
+    .shalf {
         display: flex;
         justify-content: center;
     }
-    .shalf img{
+    .shalf img {
         height: 300px;
         margin: auto;
-        
     }
-    .textbig{
+    .textbig {
         text-align: center;
         margin: 4px auto;
         margin-top: 10px;
         font-size: 23px;
     }
-    .textsmall{
+    .textsmall {
         text-align: center;
         font-size: 14px;
-
     }
-    .buttons{
+    .buttons {
         text-align: center;
     }
-    .paras{
+    .paras {
         padding: 0%;
     }
 }

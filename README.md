@@ -1,28 +1,31 @@
-# 🍽️ Canteen Management Website with Payment Gateway
 
-A full-stack canteen ordering system with integrated online payments, secure user access, and an admin dashboard.
+---
 
-## 🔧 Features
+#### 2️⃣ **Personal Portfolio Website — Free Fire Theme**
 
-- 🧑‍💼 **User Authentication** – Login/Signup and session-based access
-- 💳 **Online Payments** – Secure payment gateway integration (e.g., Razorpay/Stripe)
-- 📦 **Order Management** – Place and track orders in real time
-- 📋 **Admin Dashboard** – Manage menu, orders, and payment status
-- 📱 **Responsive Design** – Works on desktop and mobile
+```markdown
+# 🧑‍💻 Personal Portfolio Website (Free Fire Theme)
+
+A custom portfolio website inspired by the Free Fire game UI to showcase my skills, projects, and contact info.
+
+## 🌟 Highlights
+
+- 🎮 **Game-Inspired Theme** – Eye-catching Free Fire visual style
+- 📁 **Single-Page Layout** – All info in one clean layout
+- 📊 **Showcase** – Projects, skills, contact, and about sections
+- 🌐 **Live on GitHub Pages** – [View Live](https://kunalshrimal.github.io/portfolio-freefire/)
 
 ## 🛠️ Tech Stack
-- HTML, CSS, JavaScript
-- Django / Flask (backend)
-- MySQL / SQLite (database)
-- Razorpay / Stripe (payment gateway)
+- HTML5, CSS3
+- JavaScript
+- GitHub Pages
 
 ## 📸 Screenshots
-> Include 2–3 screenshots of the UI and dashboard
+> Include a screenshot or two
 
-## 🚀 How to Run
-```bash
-git clone https://github.com/KUNALSHRIMAL/canteen-website.git
-cd canteen-website
-# Activate virtualenv and run server
+## 🧠 Learning Outcomes
+- Practiced DOM manipulation and animations
+- Gained experience deploying a static site on GitHub Pages
 
-https://kunalshrimal.github.io/gameport/
+## 👨‍💻 Author
+**Kunal Shrimal**

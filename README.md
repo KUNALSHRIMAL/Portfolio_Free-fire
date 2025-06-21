@@ -8,7 +8,7 @@ A custom portfolio website inspired by the Free Fire game UI to showcase my skil
 - 🎮 **Game-Inspired Theme** – Eye-catching Free Fire visual style
 - 📁 **Single-Page Layout** – All info in one clean layout
 - 📊 **Showcase** – Projects, skills, contact, and about sections
-- 🌐 **Live on GitHub Pages** – [View Live](https://kunalshrimal.github.io/portfolio-freefire/)
+- 🌐 **Live on GitHub Pages** – [View Live]([https://kunalshrimal.github.io/portfolio-freefire/](https://kunalshrimal.github.io/Portfolio_Free-fire/))
 
 ## 🛠️ Tech Stack
 - HTML5, CSS3

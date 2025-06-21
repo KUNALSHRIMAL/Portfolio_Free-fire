@@ -16,7 +16,10 @@ A custom portfolio website inspired by the Free Fire game UI to showcase my skil
 - GitHub Pages
 
 ## 📸 Screenshots
-> Include a screenshot or two
+![image](https://github.com/user-attachments/assets/7bcf2e02-4e3a-4f0e-a80f-94fbd9ddefcd)
+![image](https://github.com/user-attachments/assets/8a233e96-7ab1-4855-91ac-61c850f593b7)
+
+
 
 ## 🧠 Learning Outcomes
 - Practiced DOM manipulation and animations

@@ -1,9 +1,4 @@
 
----
-
-#### 2️⃣ **Personal Portfolio Website — Free Fire Theme**
-
-```markdown
 # 🧑‍💻 Personal Portfolio Website (Free Fire Theme)
 
 A custom portfolio website inspired by the Free Fire game UI to showcase my skills, projects, and contact info.
